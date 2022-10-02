@@ -1,0 +1,139 @@
+/*gerais*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+}
+
+body {
+  font-family: cursive;
+  height: 100px;
+  color: #84828f;
+}
+@media screen and (max-width: 1250px) {
+  article{
+    flex-wrap: wrap;
+  }
+  
+}
+p{
+  font-size: 18px;
+  line-height: 40px;
+}
+
+section {
+  margin: 0 100px 0 100px;
+  padding-top: 48px;
+}
+
+/*cabeçalho*/
+header {
+  width: 100%;
+  height: 100vh;
+  height: 50px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #252733;
+  border: 1px solid #2d2f3d;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav ul li {
+  padding: 20px;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #edf0f1;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  /* transition: all 0.3s ease 0s; */
+}
+
+nav li a:hover {
+  color: #ff4133;
+  transition: all 0.3s ease 0s;
+}
+
+/*corpo*/
+
+.flex-title {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.gif-wave {
+  margin-left: 24px;
+}
+
+#flex-home {
+  display: flex;
+  /* flex-wrap: wrap; */
+  place-content: center;
+  text-align: justify;
+  gap: 24px;
+  align-items: center;
+}
+
+#projects {
+  background: #252733;
+  
+}
+
+.flex-ambiental {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  place-content: center;
+  align-items: center;
+}
+
+.flex-web {
+  display: flex;
+  background-color: #ffff;
+  /* flex-wrap: wrap; */
+  place-content: center;
+  align-items: center;
+}
+/*footer*/
+footer{
+  background-color: black;
+  padding-bottom: 40px;
+}
+
+#flex-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+
+.flex-localizacao {
+  display: flex;
+  align-items: center;
+
+}
+
+span{
+  font-weight: bold;
+  color: #ff4133bb;
+}
+
+.tamanho-fonte {
+  font-size: 16px;
+}
