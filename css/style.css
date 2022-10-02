@@ -83,11 +83,11 @@ nav li a:hover {
 
 #flex-home {
   display: flex;
-  /* flex-wrap: wrap; */
+   /* flex-wrap: nowrap; */
   place-content: center;
   text-align: justify;
   gap: 24px;
-  align-items: center;
+  align-items: center; */
 }
 
 #projects {
@@ -112,15 +112,18 @@ nav li a:hover {
 /*footer*/
 footer{
   background-color: black;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  
+}
+.footer-section {
+  padding-top: 0px;
+
 }
 
 #flex-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
- 
-
 }
 
 .flex-localizacao {
