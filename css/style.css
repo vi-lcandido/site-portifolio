@@ -25,7 +25,7 @@ p{
 
 section {
   margin: 0 100px 0 100px;
-  padding-top: 48px;
+  /* padding-top: 48px; */
 }
 
 /*cabeçalho*/
@@ -87,8 +87,12 @@ nav li a:hover {
   place-content: center;
   text-align: justify;
   gap: 24px;
-  align-items: center; */
+  align-items: center;
+  padding-top: 60px;
+  /* margin-bottom: 40px; */
 }
+
+
 
 #projects {
   background: #252733;
@@ -100,6 +104,7 @@ nav li a:hover {
   /* flex-wrap: nowrap; */
   place-content: center;
   align-items: center;
+  padding-top: 36px;
 }
 
 .flex-web {
